@@ -1,1 +1,36 @@
 /* BASIC STYLES HERE */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+body {
+    background-color: #111927;
+}
+
+.fancy-title {
+    color: #dfeb3f;
+    text-shadow: 0 0 20px rgba(237, 237, 237, 0.814);
+    margin-bottom: 3vh;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.players-container {
+    padding: 3vh 2vw;
+    background-color: #193044;
+    border-radius: 0.5vw;
+    color: #a7efda;
+}
+
+.players-container button {
+    border: none;
+    background-color: #e2833c;
+}
+
+.small-btn {
+    font-size: 1rem;
+    border-radius: 5vw;
+}
+
+.player-img {
+    max-height: 8vh;
+    margin-right: .55vw;
+    border-radius: 100vw;
+}
